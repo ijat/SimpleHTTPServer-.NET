@@ -27,3 +27,12 @@ Example:
 
 `shsn.exe 9000 "C:\Users\Admin\My Certs\localhost.pfx" 1234`
 
+## Publish and Packing
+
+Binaries has been published and packed using `dotnet publish` and `dotnet-warp` respectively.
+
+To publish this project, go to folder that contains `SimpleHTTPServer.csproj`:
+
+`dotnet publish`
+
+Then download [dotnet-warp](https://github.com/dgiagio/warp) and follow its example.
