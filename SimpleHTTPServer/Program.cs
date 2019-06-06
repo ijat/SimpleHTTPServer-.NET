@@ -9,8 +9,6 @@ namespace SimpleHTTPServer
 {
     public class Program
     {
-        static string rootPath = Directory.GetCurrentDirectory();
-
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
